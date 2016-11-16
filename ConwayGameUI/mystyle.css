@@ -1,0 +1,27 @@
+﻿body {
+    background-color:beige;
+}
+ 
+@keyframes change_color {
+        from { background-color: red;}
+        to { background-color: yellow; }
+}
+
+h4{
+        background-color: red;
+        animation-name: change_color;
+        animation-duration: 4s;
+}
+
+img
+{
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+}
