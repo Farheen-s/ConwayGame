@@ -20,6 +20,12 @@ img
     border-radius: 8px;
 }
 
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+
+
 button{
     height: 30px;
     width: 100px;
