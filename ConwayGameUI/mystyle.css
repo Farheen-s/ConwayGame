@@ -2,17 +2,20 @@
     background-color:beige;
 }
  
+/* css3 animation to change color: animation code */
 @keyframes change_color {
         from { background-color: red;}
         to { background-color: yellow; }
 }
 
+/* the element on which animation is applied */
 h4{
         background-color: red;
         animation-name: change_color;
         animation-duration: 4s;
 }
 
+/* to center-align the image*/
 img
 {
     display: block;
@@ -20,14 +23,25 @@ img
     border-radius: 8px;
 }
 
-form  { display: table;      }
+/* to align the fields of form */
+/*form  { display: table;      }
 p     { display: table-row;  }
 label { display: table-cell; }
-input { display: table-cell; }
+input { display: table-cell; }*/
 
+/* table properties*/
+table tr td{
+    height: 50px;
+    border: 1px solid black;
+}
 
 button{
     height: 30px;
     width: 100px;
     margin: 10px;
+}
+
+/* to hide the simulate button initially */
+#simulateConway{
+    display: none;
 }
