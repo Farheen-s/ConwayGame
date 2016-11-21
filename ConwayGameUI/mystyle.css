@@ -45,3 +45,7 @@ button{
 #simulateConway{
     display: none;
 }
+
+.cellColor{
+    background-color: violet;
+}
