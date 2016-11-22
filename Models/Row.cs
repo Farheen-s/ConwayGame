@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    class Row
+    public class Row
     {
         public List<Cell> Cells { get; set; }
     }

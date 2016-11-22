@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    class Grid
+    public class Grid
     {
         public List<Row> Rows { get; set; }
     }
